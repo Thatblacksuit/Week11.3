@@ -106,6 +106,7 @@ function deleteFile()
 	fileEntry.remove(
 		function () {
 			alert("File deleted");
+            onDeviceReady();
 		}, 
 		fail
 	);
